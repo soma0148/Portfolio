@@ -46,11 +46,11 @@
 
     /* Styles for specific sections */
     #about {
-      background-color: #f2f2f2;
+      background-color: lightpink;
     }
 
     #projects {
-      background-color: #eaeaea;
+      background-color: lightblue;
     }
 
     #projects li {
