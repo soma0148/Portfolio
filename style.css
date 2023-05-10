@@ -59,4 +59,8 @@
     #projects li {
       margin-bottom: 20px;
     }
+    .logo img {
+      height: 50px;
+      width: auto;
+    }
   
