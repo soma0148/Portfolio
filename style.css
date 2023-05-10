@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My Portfolio</title>
-  <style>
-    /* Global styles */
+
     body {
       font-family: Arial, sans-serif;
+      background-color: aqua;
+      color: #333;
       margin: 0;
       padding: 0;
     }
@@ -59,9 +56,4 @@
     #projects li {
       margin-bottom: 20px;
     }
-  </style>
-</head>
-<body>
-  <!-- Your HTML code goes here -->
-</body>
-</html>
+  
