@@ -1,14 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* h2 {
+  vertical-align: center;
+  text-align: center;
+} */
 
-  * {margin: 0;
-  padding: 0;
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  background-color: #0984e3;
+}
+main {
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #b2bec3;
+  max-width: 1200px;
+}
+
+/* main {
+  padding: 1em;
+  margin-left: 130px;
+  margin-right: 130px;
+  overflow: hidden;
+} */
+
+* {
+  font-family: "Raleway";
   box-sizing: border-box;
 }
+
     body {
       font-family: Arial, sans-serif;
-      background-color: #a99ca8;
-      color: #333;
-
+      margin: 0;
+      padding: 0;
     }
 
     header {
@@ -50,20 +77,14 @@
 
     /* Styles for specific sections */
     #about {
-      background-color: lightpink;
+      background-color: lightgreen;
     }
 
     #projects {
-      background-color: lightblue;
+      background-color: lightpink;
     }
 
     #projects li {
       margin-bottom: 20px;
-    }
-    .logo img {
-      height: 40px;
-      width: auto;
-  
-    
     }
   
