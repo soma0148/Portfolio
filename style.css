@@ -83,4 +83,16 @@ main {
     #projects li {
       margin-bottom: 20px;
     }
+    .image-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .image-row img {
+      width: 800px;
+      height: auto;
+      margin: 0 10px;
+    }
   
