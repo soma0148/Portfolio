@@ -45,6 +45,9 @@ main {
   height: 120px;
   padding: 1em;
 }
+.logo {
+  width: 100px;
+}
 li a{
   color: white;
 }
