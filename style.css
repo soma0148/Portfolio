@@ -16,7 +16,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  background-color: #b2bec3;
+  background-color: lightgreen;
   max-width: 1200px;
 }
 
@@ -208,16 +208,17 @@ a {
       margin-left: auto;
     }
 
-    #projects {
+    #basicweb, basicxd {
       background-color: lightgreen;
       
     }
     img {
-      width: 100%;
-      height: auto;
+      max-width: 100%;
+      margin-right: auto;
+      margin-left: auto;
     }
 
-    #projects li {
+    #basic li {
       margin-bottom: 20px;
     }
     .image-row {
@@ -232,37 +233,5 @@ a {
       height: auto;
       margin: 0 10px;
     }
-    .wraper {
-      width: 800px;
-      margin: 0px auto;
-      overflow: hidden;
-      border: 10px solid;
-    }
-    .slideshow {
-      width: 2400px;
-      animation: slide 10s ease infinite;
-    }
-    .slider {
-      float: left;
-      width: 800px;
-      height: 500px;
-    }
     
-    @keyframes slide {
-      20% {
-        margin-left: 0px;
-      }
-      30% {
-        margin-left: -800px;
-      }
-      50% {
-        margin-left: -800px;
-      }
-      60% {
-        margin-left: -1600px;
-      }
-      70% {
-        margin-left: -1600px;
-      }
-    }
   
