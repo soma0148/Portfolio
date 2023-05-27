@@ -247,12 +247,7 @@ a {
       width: 800px;
       height: 500px;
     }
-    .pic {
-      width: 100%;
-      height: 500px;
-      object-fit: cover;
-      background-size: cover;
-    }
+    
     @keyframes slide {
       20% {
         margin-left: 0px;
