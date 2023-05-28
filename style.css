@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
   display: grid;
   font-family: "Poppins", sans-serif;
-  background-color: #0984e3;
+  background-color: lightseagreen;
 }
 main {
   padding: 1em;
