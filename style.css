@@ -218,6 +218,14 @@ a {
       margin-left: 40px;
       margin-right: 40px;
     }
+    .grid_1-1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px;
+      margin-top: 20px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
 
     footer {
       background: linear-gradient(to left, #000000, #ff004f);
