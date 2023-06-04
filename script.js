@@ -15,13 +15,16 @@ function toggleMenu() {
   }
 btn.addEventListener("click", toggleMenu);
 
+function showTitle() {
+  console.log("showTitle");
+
 // Get the button elements by their ids
 var btn1 = document.getElementById("btn_1");
 var webBtn = document.getElementById("web_btn");
 var uxBtn = document.getElementById("ux_btn_2");
 var animBtn = document.getElementById("anim_btn_3");
 var indholdBtn = document.getElementById("indhold_btn_4");
-var portfolioBtn = document.getElementById("portfolio_btn_5");
+var portfolioBtn = document.getElementById("pexan_btn_5");
 var aboutBtn = document.getElementById("about_btn_6");
 
 // Add click event listeners to the buttons
@@ -50,8 +53,8 @@ indholdBtn.addEventListener("click", function() {
   // Additional code for Indhold Button
 });
 
-portfolioBtn.addEventListener("click", function() {
-  console.log("Portfolio Button clicked!");
+pexamBtn.addEventListener("click", function() {
+  console.log("pexam Button clicked!");
   // Additional code for Portfolio Button
 });
 
