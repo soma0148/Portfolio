@@ -62,6 +62,7 @@ aboutBtn.addEventListener("click", function() {
   console.log("About Button clicked!");
   // Additional code for About Button
 });
+}
 
   
 
