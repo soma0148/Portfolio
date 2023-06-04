@@ -64,8 +64,5 @@ aboutBtn.addEventListener("click", function() {
 });
 }
 
-  
 
 
-  
-    
