@@ -331,30 +331,4 @@ a {
     }
 
 
-    #container {
-      position: relative;
-    }
-    
-    #background-image {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url('path/to/background-image.jpg');
-      background-size: cover;
-      opacity: 0.8; /* Adjust opacity as needed */
-      z-index: 1;
-    }
-    
-    .svg-element {
-      position: absolute;
-      z-index: 2;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-    
-    .svg-element.active {
-      opacity: 1;
-    }
     

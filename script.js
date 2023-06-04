@@ -65,17 +65,5 @@ aboutBtn.addEventListener("click", function() {
 }
 
 
-// Get all the SVG elements
-var svgElements = document.querySelectorAll('.svg-element');
 
-// Add event listeners to each SVG element
-svgElements.forEach(function(svgElement) {
-  svgElement.addEventListener('mouseenter', function() {
-    svgElement.classList.add('active');
-  });
-  
-  svgElement.addEventListener('mouseleave', function() {
-    svgElement.classList.remove('active');
-  });
-});
 
