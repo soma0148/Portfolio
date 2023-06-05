@@ -64,6 +64,12 @@ aboutBtn.addEventListener("click", function() {
 });
 }
 
+// Automatically play the audio when the page loads
+window.addEventListener('load', function() {
+  var audio = document.getElementById('myAudio');
+  audio.play();
+});
+
 
 
 
