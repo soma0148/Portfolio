@@ -1,3 +1,5 @@
+window.addEventListener("load", showTitle);
+
 let btn = document.querySelector(".toggle-btn");
 let menu = document.querySelector(".main-menu");
 
@@ -63,6 +65,7 @@ aboutBtn.addEventListener("click", function() {
   // Additional code for About Button
 });
 }
+
 
 
 
