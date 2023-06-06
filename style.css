@@ -195,6 +195,7 @@ a {
       text-align: justify;
     }
     h1, h2 {
+      font-family: "Poppins", sans-serif;
       color: #0a0a0a;
       padding-left: 40px;
       padding-right: 40px;
