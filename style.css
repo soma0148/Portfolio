@@ -188,13 +188,19 @@ a {
     section {
       padding: 40px;
     }
-
-    h1, h2, h3 {
+    h3 {
       color: #0a0a0a;
       padding-left: 40px;
       padding-right: 40px;
       text-align: justify;
     }
+    h1, h2 {
+      color: #0a0a0a;
+      padding-left: 40px;
+      padding-right: 40px;
+      text-align: center;
+    }
+
 
     .para_1 {
       padding-left: 40px;
