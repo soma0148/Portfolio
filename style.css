@@ -244,16 +244,6 @@ a {
       margin: 0;
       font-size: 20px;
     }
-    
-  
-
-    footer {
-      background: linear-gradient(to left, #000000, #ff004f);
-      color: #fff;
-      padding: 35px;
-      text-align: center;
-    }
-
     /* Styles for specific sections */
     
     img {
@@ -280,12 +270,15 @@ a {
 
     
     #portfolio_bg {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 35%;
-      left: 0;
+      width: 65%;
+      height: 60%;
+      position: relative;
+      top: 10%;
+      left: 10%;
+      right: 10%;
+      bottom: 35%;
       background-size: cover;
+      background-position: center;
     }
     .link {
       color: white;
@@ -305,21 +298,21 @@ a {
   
     .punkt1 {
       position: absolute;
-      top: -3%;
+      top: 7%;
       left: 15%;
       transform: translate(-50%, -50%);
     }
   
     .punkt2 {
       position: absolute;
-      top: 22%;
+      top: 35%;
       left: 25%;
       transform: translate(-50%, -50%);
     }
   
     .punkt3 {
       position: absolute;
-      top: 13%;
+      top: 15%;
       left: 46%;
       transform: translate(-50%, -50%);
     }
@@ -332,9 +325,15 @@ a {
     }
     .punkt5 {
       position: absolute;
-      top: 18%;
+      top: 20%;
       left: 82%;
       transform: translate(-50%, -50%);
+    }
+    footer {
+      background: linear-gradient(to left, #000000, #ff004f);
+      color: #fff;
+      padding: 35px;
+      text-align: center;
     }
   
     
