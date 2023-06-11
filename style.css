@@ -262,18 +262,7 @@ a {
     #basic li {
       margin-bottom: 20px;
     }
-    .image-row {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 10px;
-    }
     
-    .image-row img {
-      width: 800px;
-      height: auto;
-      margin: 0 10px;
-    }
 
     
     #portfolio_bg {
@@ -349,57 +338,16 @@ a {
       text-align: center;
     }
 
-    .slideshow-container {
-      max-width: 800px;
-      margin: auto;
-      position: relative;
+    .image-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
     }
     
-    .mySlides {
-      display: none;
-    }
-    
-    img {
-      width: 100%;
+    .image-row img {
+      width: 800px;
       height: auto;
-    }
-    
-    .prev,
-    .next {
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      cursor: pointer;
-    }
-    
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    
-    .prev:hover,
-    .next:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-    
-    .dot {
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-      cursor: pointer;
-    }
-    
-    .dot.active {
-      background-color: #717171;
+      margin: 0 10px;
     }
     
