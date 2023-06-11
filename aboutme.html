@@ -55,20 +55,25 @@ In the first semester of my studies, I was introduced to so much knowledge that 
     <h1>Curriculum Vitae</h1>
     
   
-    <div class="wrapper">
-      <div class="slideshow">
-        <div class="slide">
-          <img src="images/pixelied-dolphin.svg" alt="pic">
-        </div>
-        <div class="slider">
-          <img src="images/cv1.png" alt="pic">
-        </div>
-        <div class="slider">
-          <img src="images/cv2.png" alt="pic">
-        </div>
-        </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/cv1.png" alt="cv1">
       </div>
-      
+      <div class="mySlides fade">
+        <img src="images/cv2.png" alt="cv2">
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+    
+
   <section id="contact">
     <h2>Contact Me</h2>
     <p>You can reach me at <a href="mailto:sopa0001@stud.kea.dk"><strong>sopa0001@stud.kea.dk</strong><br>
