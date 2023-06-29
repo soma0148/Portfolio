@@ -121,7 +121,7 @@ a {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1300px) {
   .menu-button-container {
     display: flex;
     
