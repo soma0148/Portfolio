@@ -26,10 +26,6 @@ main {
   overflow: hidden;
 } */
 
-* {
-  font-family: "Raleway";
-  box-sizing: border-box;
-}
 
     
 
@@ -51,9 +47,7 @@ li a{
   color: white;
 }
 
-a {
-  color: #0984e3;
-}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -187,14 +181,18 @@ a {
     section {
       padding: 40px;
     }
-    h3 {
+    
+    h1 {
+      font-family: "Raleway", sans-serif;
+      font-size: 32px;
       color: #0a0a0a;
       padding-left: 40px;
       padding-right: 40px;
-      text-align: justify;
+      text-align: center;
     }
-    h1, h2 {
-      font-family: "Poppins", sans-serif;
+    h2 {
+      font-family: "Raleway", sans-serif;
+      font-size: 24px;
       color: #0a0a0a;
       padding-left: 40px;
       padding-right: 40px;
@@ -225,15 +223,7 @@ a {
       margin-right: 40px;
      
     }
-    .grid_1-1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3px;
-      margin-top: 20px;
-      margin-left: 40px;
-      margin-right: 40px;
-      
-    }
+    
     .grid_1-1 {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -245,6 +235,7 @@ a {
     
     p {
       margin: 0;
+      font-family: "Poppins", sans-serif;
       font-size: 20px;
     }
     /* Styles for specific sections */
