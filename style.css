@@ -46,7 +46,9 @@ main {
 li a{
   color: white;
 }
-
+a {
+  color: #0984e3;
+}
 
 .menu {
   display: flex;
