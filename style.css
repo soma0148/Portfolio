@@ -180,9 +180,7 @@ a {
       padding: 10px;
     }
 
-    section {
-      padding: 40px;
-    }
+    
     
     h1 {
       font-family: "Raleway", sans-serif;
@@ -240,7 +238,7 @@ a {
       font-family: "Poppins", sans-serif;
       font-size: 22px;
     }
-    /* Styles for specific sections */
+    
     
     img {
       max-width: 100%;
@@ -248,10 +246,7 @@ a {
       margin-left: auto;
     }
 
-    #basic li {
-      margin-bottom: 20px;
-    }
-    
+   
 
     
     #portfolio_bg {
