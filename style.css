@@ -331,7 +331,15 @@ a {
       .grid_1-1-1 {
         grid-template-columns: 1fr;}
 
-        
+        .three-column-container {
+          display: flex;
+          justify-content: space-between;
+          column-gap: 20px;
+        }
+        .column {
+          flex: 1;
+        }
+      
 
 
     
