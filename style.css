@@ -169,14 +169,7 @@ a {
      
     }
     
-    .grid_1-1 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3px;
-      margin-top: 20px;
-      margin-left: 40px;
-      margin-right: 40px;
-    }
+    
     
     p {
       margin: 0;
@@ -329,14 +322,7 @@ a {
       .grid_1-1-1 {
         grid-template-columns: 1fr;}
 
-        .grid_1-1 {
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 3px;
-          margin-top: 20px;
-          margin-left: 40px;
-          margin-right: 40px;
-        }
+        
 
 
     
