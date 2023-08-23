@@ -149,6 +149,8 @@ a {
       padding-left: 40px;
       padding-right: 40px;
       
+
+      
     }
     .grid_1-1-1 {
       display: grid;
@@ -185,7 +187,14 @@ a {
       object-fit: fill;
     }
 
-   
+    .three-column-container {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 20px;
+    }
+    .column {
+      flex: 1;
+    }
 
     
     #portfolio_bg {
